@@ -1,0 +1,17 @@
+{
+  "fleet_version": "1.0.0",
+  "services": {
+    "echo": {
+      "url": "https://x402-echo.raen.network/v1/chat",
+      "price_sats": 10
+    },
+    "summarizer": {
+      "url": "https://x402-summarizer.raen.network/v1/summarize",
+      "price_sats": 25
+    },
+    "coder": {
+      "url": "https://x402-coder.raen.network/v1/generate",
+      "price_sats": 50
+    }
+  }
+}
